@@ -1,0 +1,13 @@
+{
+  "name": "admin-panel",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w apps/web && npm run build -w apps/nui",
+    "lint": "npm run lint -w apps/web && npm run lint -w apps/nui"
+  }
+}

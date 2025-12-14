@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@ui": ["../../packages/ui/src"],
+      "@ui/*": ["../../packages/ui/src/*"],
+      "@api": ["../../packages/api/src"],
+      "@api/*": ["../../packages/api/src/*"],
+      "@types": ["../../packages/types/src"],
+      "@types/*": ["../../packages/types/src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
