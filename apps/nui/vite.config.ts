@@ -1,3 +1,4 @@
+import path from 'path';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -10,9 +11,9 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@ui': '../../packages/ui/src',
-      '@api': '../../packages/api/src',
-      '@types': '../../packages/types/src',
+      '@ui': path.resolve(__dirname, '../../packages/ui/src'),
+      '@api': path.resolve(__dirname, '../../packages/api/src'),
+      '@types': path.resolve(__dirname, '../../packages/types/src'),
     },
   },
 });
