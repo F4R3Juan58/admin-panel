@@ -1,0 +1,15 @@
+{
+  "name": "@admin-panel/api",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@admin-panel/types": "0.1.0",
+    "uuid": "^9.0.1"
+  },
+  "license": "MIT"
+}
