@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+pnpm-lock.yaml
+yarn.lock
+dist
+build
+.vscode
+.DS_Store
+.fivem
+apps/web/node_modules
+apps/nui/node_modules
